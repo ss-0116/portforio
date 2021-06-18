@@ -1,0 +1,29 @@
+.cmn-title {
+    color: cl(white);
+    text-align: center;
+    padding-top: 80px;
+}
+.main {
+    font-size: 32px;
+}
+
+.sub {
+    margin-top: 40px;
+    @include TimesNewRoman;
+    font-size: 20px;
+}
+
+.cmn-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cl(white);
+    background-color: cl(gold);
+    border-radius: 8px;
+    font-size: 14px;
+    width: 155px;
+    height: 37px;
+}
+    a {
+        // margin: 0 auto;
+}
