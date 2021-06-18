@@ -47,7 +47,7 @@ header .header-fixed {
 }
 
 header .header-logo {
-  margin-left: 29px;
+  margin-left: 6px;
   margin-top: 3px;
   width: 135px;
   padding-bottom: 15px;
@@ -294,7 +294,7 @@ footer .copyright {
 }
 
 .top {
-  background-image: url(https://github.com/ss-0116/portforio/blob/main/image/top-mv_sp.png?raw=true);
+  background-image: url(/image/top-mv_sp.png);
   background-size: cover;
   background-position: center;
   height: 674px;
@@ -304,7 +304,7 @@ footer .copyright {
 
 @media print, screen and (min-width: 768px) {
   .top {
-    background-image: url(https://github.com/ss-0116/portforio/blob/main/image/top-bg.png?raw=trueg);
+    background-image: url(/image/top-bg.png);
   }
 }
 
@@ -386,14 +386,17 @@ footer .copyright {
 
 .features-wrapper .features-item .features-desc {
   margin-top: 50px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: justify;
   margin-right: 27px;
+  margin-left: 28px;
 }
 
 @media print, screen and (min-width: 768px) {
   .features-wrapper .features-item .features-desc {
     margin-right: 42px;
+    font-size: 18px;
+    margin-left: 0;
   }
 }
 
